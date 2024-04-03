@@ -1,13 +1,17 @@
+body{
+    width:100%;
+}
 #container{
   width:1370px;
+  margin-left: 12%;
+  margin-right: 8%;
 }
 
 /* Banner-section */
 #banner{
     width:1320px;
     height:600px;
-  
-   /* text-align: center; */
+    
 }
 
 #banner h4{
@@ -53,6 +57,8 @@ height:1163px;
 .card-img{
     width:30%;
     padding:1rem;
+    height: auto;
+
 }
 
 .card-group{
@@ -75,4 +81,15 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#newsletter button{
+    background-color: red;
+    color: white ;
+    font-size:1.5rem;
+    padding: .5rem;
+    font-weight: bolder;
+    border: .5rem solid red;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius:10%;
 }
