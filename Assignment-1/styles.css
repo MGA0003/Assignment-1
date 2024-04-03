@@ -1,0 +1,78 @@
+#container{
+  width:1370px;
+}
+
+/* Banner-section */
+#banner{
+    width:1320px;
+    height:600px;
+  
+   /* text-align: center; */
+}
+
+#banner h4{
+
+}
+ 
+#banner p{
+
+}
+
+#banner-img{
+    width:70%;
+}
+
+/* Deals Sections */
+#deals-section{
+    /* text-align: center; */
+}
+/* Gift Setion */
+#best-gifts{
+width:1320px;
+height:1163px;
+/* margin-left: 10%; */
+                
+}
+
+#best-gifts h3{
+    color:red;
+}
+
+#newsletter{
+
+}
+.section-gap{
+    margin-top:200px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img{
+    width:30%;
+    padding:1rem;
+}
+
+.card-group{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
