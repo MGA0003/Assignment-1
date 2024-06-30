@@ -1,8 +1,9 @@
 body{
     width:100%;
+    overflow-x: hidden;   
 }
 #container{
-  width:1370px;
+  width:1400px;
   margin-left: 12%;
   margin-right: 8%;
 }
@@ -11,40 +12,90 @@ body{
 #banner{
     width:1320px;
     height:600px;
+    position: relative;
     
 }
 
+#banner-text{
+    position: absolute;
+    top:3rem;
+    left:20rem; 
+   
+    color:white;
+   
+}
 #banner h4{
-
+ font-size: 2.5rem;
+ font-weight: lighter;
 }
  
-#banner p{
-
+#banner h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -2rem;
+    font-weight: bolder;
+    margin-left: -2rem;
 }
 
 #banner-img{
     width:70%;
+   opacity: 0.9;
+    
 }
 
 /* Deals Sections */
 #deals-section{
-    /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  margin-top:-5.6rem ;
+  position: relative;
+  height:32rem;
+}
+.deals-para{
+    display: flex;
+  flex-direction: column;
+  position: absolute;
+  left:20rem;
+  
+
+}
+
+.deals-para h2{
+        color:red;
+        font-size: 4rem;
+}
+
+.deals-para h4{
+    color:black;
+    font-size: 1.5rem;
+    margin-bottom: -2.5rem;
+    margin-top: .5rem;
+}
+
+#deals-para{
+    color: red;
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-top: -2rem;
+}
+
+#deals-img{
+    width:45%;
+    position: absolute;
+    top:16rem;
+    left: 8.5rem;
+    padding-bottom: 10rem;
 }
 /* Gift Setion */
 #best-gifts{
-width:1320px;
-height:1163px;
-/* margin-left: 10%; */
-                
+width:100%;
 }
 
 #best-gifts h3{
     color:red;
 }
 
-#newsletter{
 
-}
 .section-gap{
     margin-top:200px;
 }
@@ -65,9 +116,16 @@ height:1163px;
     display: flex;
 }
 
+#newsletter{
+
+}
+
 footer{
     display: flex;
     flex-direction: column;
+    background-color: black;
+    color:white;
+    margin-top: 100px;
 }
 
 #social-icons{
@@ -90,6 +148,14 @@ footer{
     padding: .5rem;
     font-weight: bolder;
     border: .5rem solid red;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius:10%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius:15%;
 }
+
+#footer-bottom
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
